@@ -5,7 +5,7 @@
 }
 
     body{
-        background-image: url(https://i.imgur.com/cZDpXnz.png);
+        background-image: url(https://i.imgur.com/onnIHRy.png);
         background-repeat:no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -16,6 +16,13 @@
         justify-content: center;
         width: 100%;
         margin-top: 100px;
+    }
+    
+    .card{
+        background-color: rgba(255, 255, 255, 0.438);
+        padding: 30px;
+        border-radius: 4%;
+        box-shadow: 3px 3px 1px 0px rgba(39, 3, 107, 0.432);
     }
 
 
@@ -33,3 +40,4 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
 
+*{font-family: 'Roboto' sans-serif;}
